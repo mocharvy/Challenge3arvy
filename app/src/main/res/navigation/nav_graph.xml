@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragmentMenu2">
+    app:startDestination="@id/homeFragment">
     <fragment
-        android:id="@+id/fragmentMenu2"
-        android:name="com.example.arvy.challenge3.FragmentMenu"
-        android:label="FragmentMenu" >
+        android:id="@+id/homeFragment"
+        android:name="com.programmer.challenge3.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_fragmentMenu2_to_fragmentDetails2"
-            app:destination="@id/fragmentDetails2" />
+            android:id="@+id/action_homeFragment_to_fragmentDetails"
+            app:destination="@id/fragmentDetails" />
     </fragment>
     <fragment
-        android:id="@+id/fragmentDetails2"
-        android:name="com.example.arvy.challenge3.FragmentDetails"
-        android:label="FragmentDetails" />
+        android:id="@+id/fragmentDetails"
+        android:name="com.programmer.challenge3.FragmentDetails"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.arvy.challenge3
+package com.programmer.challenge3
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,8 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.programmer.arvy.challenge3.MainActivity
-import com.programmer.challenge3.R
 
 class FragmentDetails : Fragment() {
 

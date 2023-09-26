@@ -1,8 +1,7 @@
-package com.programmer.arvy.challenge3
+package com.programmer.challenge3
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.programmer.challenge3.R
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.programmer.arvy.challenge3.MenuItem
+import com.programmer.challenge3.MenuItem
 import com.programmer.challenge3.R
 
 class MenuAdapter(private val menuItems: MutableList<MenuItem>, private val onItemClick: (MenuItem) -> Unit) :

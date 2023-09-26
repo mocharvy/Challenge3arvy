@@ -1,4 +1,4 @@
-package com.programmer.arvy.challenge3
+package com.programmer.challenge3
 
 data class MenuItem(
     val name: String,
