@@ -1,4 +1,4 @@
-package com.programmer.arvy.challenge3
+package com.programmer.challenge3
 
 import android.view.LayoutInflater
 import android.view.View

@@ -22,7 +22,7 @@
         android:text="Dimsum"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="10dp"/>
 
     <!-- Harga makanan -->
     <TextView
@@ -40,4 +40,6 @@
         android:layout_height="wrap_content"
         android:textSize="14sp"
         android:layout_marginTop="8dp"/>
+
+
 </LinearLayout>

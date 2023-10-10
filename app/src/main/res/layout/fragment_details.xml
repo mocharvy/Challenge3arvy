@@ -64,8 +64,9 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:paddingBottom="20dp"
-        android:text="Dimsum adalah makanan yang sangat enak"
+        android:text="Dimsum adalah makanan yang sangat dicari oleh banyak orang, tak hanya itu dimsum disajikan dengan saus tomat, sehingga menjadi makanan favorit anak remaja."
         android:textSize="16sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtFoodPrice" />
@@ -89,7 +90,7 @@
         android:layout_height="48dp"
         android:paddingTop="10dp"
         android:paddingStart="16dp"
-        android:src="@drawable/home"
+        android:src="@drawable/baseline_home_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line1" />
 
@@ -115,7 +116,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:clickable="true"
         android:gravity="center"
-        android:text="Tampilkan di Google Maps"
+        android:text="Jl. BSD Green Office Park Jl. BSD Grand Boulevard, Sampora, BSD, Kabupaten Tangerang, Banten 15345"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

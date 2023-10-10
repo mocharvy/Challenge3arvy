@@ -1,6 +1,5 @@
 package com.programmer.challenge3
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.programmer.arvy.challenge3.MenuAdapter
+import com.programmer.challenge3.MenuAdapter
 
 class HomeFragment : Fragment() {
 
@@ -33,7 +32,7 @@ class HomeFragment : Fragment() {
                 "Kentang Goreng pakai saus tomat",
                 R.drawable.img_2,
                 "Alamat Restoran 1",
-                "https://maps.app.goo.gl/Kd1hbopN2DhnY4DQ9"
+                "https://maps.app.google.gl/Kd1hbopN2DhnY4DQ9"
             )
         )
 
@@ -44,7 +43,7 @@ class HomeFragment : Fragment() {
                 "Chicken dengan sambal ijo",
                 R.drawable.img_3,
                 "Alamat Restoran 2",
-                "https://maps.app.goo.gl/Kd1hbopN2DhnY4DQ9"
+                "https://maps.app.google.gl/Kd1hbopN2DhnY4DQ9"
             )
         )
 
@@ -55,7 +54,7 @@ class HomeFragment : Fragment() {
                 "Sushi makanan favorit anak jaman now",
                 R.drawable.img_5,
                 "Alamat Restoran 3",
-                "https://maps.app.goo.gl/Kd1hbopN2DhnY4DQ9"
+                "https://maps.app.google.gl/Kd1hbopN2DhnY4DQ9"
             )
         )
 
@@ -66,7 +65,7 @@ class HomeFragment : Fragment() {
                 "Dimsum makanan paling dicari semua orang",
                 R.drawable.img,
                 "Alamat Restoran 4",
-                "https://maps.app.goo.gl/Kd1hbopN2DhnY4DQ9"
+                "https://maps.app.google.gl/Kd1hbopN2DhnY4DQ9"
             )
         )
 
@@ -77,7 +76,7 @@ class HomeFragment : Fragment() {
                 "Dengan ayam pilihan menciptakan kenikmatan yang sempurna",
                 R.drawable.img_6,
                 "Alamat Restoran 1",
-                "https://maps.app.goo.gl/Kd1hbopN2DhnY4DQ9"
+                "https://maps.app.google.gl/Kd1hbopN2DhnY4DQ9"
             )
         )
 
@@ -106,15 +105,6 @@ class HomeFragment : Fragment() {
 
         return view
     }
-
-    /*override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is FragmentMenuListener) {
-            fragmentMenuListener = context
-        } else {
-            throw RuntimeException("$context must implement FragmentMenuListener")
-        }
-    }*/
 
     interface FragmentMenuListener {
         fun onMenuItemClicked(args: Bundle)
